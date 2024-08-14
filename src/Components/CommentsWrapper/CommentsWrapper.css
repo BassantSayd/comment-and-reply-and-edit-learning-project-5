@@ -1,0 +1,13 @@
+.Comment {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.CommentsWrapper {
+  width: 90%;
+}

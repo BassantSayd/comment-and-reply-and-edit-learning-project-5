@@ -1,0 +1,43 @@
+.Post {
+  margin: 10px;
+  border: 1px solid rgb(158, 155, 155);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 70px;
+  border-radius: 5px;
+  width: 95%;
+}
+
+.PostWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Post > p {
+  width: 75%;
+}
+.DeleteBtns {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.CounterWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: hsl(223, 19%, 93%);
+  width: 30px;
+  color: #5357b6;
+  margin-left: 10px;
+}
+
+.CounterWrapper > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #5357b6;
+}
